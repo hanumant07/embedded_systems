@@ -14,7 +14,8 @@ file(GLOB SOURCES "src/*.cpp")
 add_library(os_solutions ${SOURCES})
 
 # Test runner executable
-add_executable(test_runner tests/test_runner.cpp)
+file(GLOB TEST_SOURCES "tests/*.cpp")
+add_executable(test_runner ${TEST_SOURCES})
 target_link_libraries(test_runner os_solutions)
 
 enable_testing()

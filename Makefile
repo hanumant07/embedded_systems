@@ -8,7 +8,9 @@ TARGET = test_runner
 
 all: $(TARGET)
 
-$(TARGET): tests/test_runner.cpp $(OBJS)
+TEST_SRCS = $(wildcard tests/*.cpp)
+
+$(TARGET): $(TEST_SRCS) $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 clean:
