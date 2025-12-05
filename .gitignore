@@ -1,0 +1,9 @@
+# Build artifacts
+build/
+*.o
+test_runner
+
+# IDE settings
+.vscode/
+.idea/
+.DS_Store
