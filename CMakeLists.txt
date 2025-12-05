@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(OS_Interview_Prep)
+project(Bare_Metal_Essentials)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

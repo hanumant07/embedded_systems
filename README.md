@@ -1,6 +1,6 @@
-# Operating Systems Interview Preparation
+# Bare Metal Essentials
 
-This repository tracks C/C++ implementations of Operating Systems interview questions.
+This repository contains fundamental building blocks for bare-metal and embedded application development.
 
 ## Progress
 | ID | Question | Status |
