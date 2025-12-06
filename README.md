@@ -11,6 +11,7 @@ This repository contains fundamental building blocks for bare-metal and embedded
 | 2  | aligned_malloc | Completed |
 | 3  | intrusive_list | Completed |
 | 4  | find_first_set_bit | Completed |
+| 5  | modify_reg | Completed |
 
 ## Build Instructions
 ```bash
