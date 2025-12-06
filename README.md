@@ -9,6 +9,7 @@ This repository contains fundamental building blocks for bare-metal and embedded
 |----|----------|--------|
 | 1  | my_memmove | Completed |
 | 2  | aligned_malloc | Completed |
+| 3  | intrusive_list | Completed |
 
 ## Build Instructions
 ```bash
