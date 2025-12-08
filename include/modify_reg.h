@@ -1,7 +1,7 @@
 #ifndef MODIFY_REG_H
 #define MODIFY_REG_H
 
-#include <cstdint> // for uint32_t
+#include <stdint.h> // for uint32_t
 
 enum Op { SET, CLEAR, TOGGLE };
 

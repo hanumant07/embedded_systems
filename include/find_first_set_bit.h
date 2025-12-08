@@ -1,7 +1,7 @@
 #ifndef FIND_FIRST_SET_BIT_H
 #define FIND_FIRST_SET_BIT_H
 
-#include <cstdint> // for uint64_t
+#include <stdint.h> // for uint64_t
 
 #ifdef __cplusplus
 extern "C" {

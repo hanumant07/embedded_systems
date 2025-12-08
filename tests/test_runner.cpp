@@ -6,6 +6,7 @@ void test_aligned_malloc();
 void test_intrusive_list();
 void test_find_first_set_bit();
 void test_modify_reg();
+void test_reverse_bits();
 
 int main() {
   std::cout << "Running tests..." << std::endl;
@@ -15,6 +16,7 @@ int main() {
   test_intrusive_list();
   test_find_first_set_bit();
   test_modify_reg();
+  test_reverse_bits();
   // Future tests will be called here
   return 0;
 }

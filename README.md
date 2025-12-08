@@ -12,6 +12,7 @@ This repository contains fundamental building blocks for bare-metal and embedded
 | 3  | intrusive_list | Completed |
 | 4  | find_first_set_bit | Completed |
 | 5  | modify_reg | Completed |
+| 6  | reverse_bits | Pending |
 
 ## Build Instructions
 ```bash

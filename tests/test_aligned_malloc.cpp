@@ -1,8 +1,8 @@
 #include "aligned_malloc.h"
 #include <cassert>
-#include <cstdint> // for uintptr_t
 #include <cstring> // for memset
 #include <iostream>
+#include <stdint.h> // for uintptr_t
 #include <vector>
 
 void test_aligned_malloc() {
