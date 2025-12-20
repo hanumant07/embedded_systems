@@ -8,8 +8,10 @@ void test_find_first_set_bit();
 void test_modify_reg();
 void test_reverse_bits();
 void test_ring_buffer();
+extern "C" {
+void test_lru();
 void test_packet_handler();
-extern "C" void test_lru();
+}
 
 int main() {
   std::cout << "Running tests..." << std::endl;
