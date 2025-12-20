@@ -2,7 +2,6 @@
 #define RING_BUFFER_HPP
 
 #include <stddef.h> // for size_t
-#include <stdint.h>
 
 template <typename T> class RingBuffer {
 public:

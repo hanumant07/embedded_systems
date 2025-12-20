@@ -1,6 +1,10 @@
 #ifndef RING_BUFFER_TPP
 #define RING_BUFFER_TPP
 
+#ifndef RING_BUFFER_HPP
+#include "ring_buffer.hpp"
+#endif
+
 template <typename T>
 RingBuffer<T>::RingBuffer(size_t size)
     : capacity(size), head(0), tail(0), full(false) {
