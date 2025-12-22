@@ -8,9 +8,9 @@ void test_find_first_set_bit();
 void test_modify_reg();
 void test_reverse_bits();
 void test_ring_buffer();
+void test_bitmap_allocator();
 extern "C" {
 void test_lru();
-void test_packet_handler();
 }
 
 int main() {
@@ -23,7 +23,7 @@ int main() {
   test_modify_reg();
   test_reverse_bits();
   test_ring_buffer();
-  test_packet_handler();
+  test_bitmap_allocator();
   test_lru();
   // Future tests will be called here
   return 0;
