@@ -13,6 +13,9 @@ extern "C" {
 void test_lru();
 }
 
+void test_convolve2d();
+void test_connected_components();
+
 int main() {
   std::cout << "Running tests..." << std::endl;
   placeholder();
@@ -25,6 +28,8 @@ int main() {
   test_ring_buffer();
   test_bitmap_allocator();
   test_lru();
+  test_convolve2d();
+  test_connected_components();
   // Future tests will be called here
   return 0;
 }
